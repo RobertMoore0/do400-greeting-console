@@ -27,7 +27,7 @@ pipeline{
 
  	 sh '''
 
-	 oc project fkdefe-greetings
+	 oc project fkdefe-jenkins
 
 	 oc start-build greeting-console --follow --wait
 
